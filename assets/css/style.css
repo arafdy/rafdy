@@ -324,7 +324,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h3 {
-  margin-top: 100px;
+  padding-top: 100px;
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
