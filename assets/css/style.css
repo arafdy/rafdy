@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-#header .d-flex .profile .navname {
+#header .profile .navname {
   margin-top: 20px;
 }
 
@@ -125,6 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 #main {
   margin-left: 300px;
 }
+
+
 
 @media (max-width: 1199px) {
   #header {
@@ -328,6 +330,11 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+}
+
+.about .content p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
 }
 
 .about .content ul {
