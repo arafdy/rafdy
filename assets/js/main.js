@@ -15,6 +15,20 @@
     });
   }
 
+  // #TODO testing 
+  window.addEventListener("scroll", function() {
+    // Calculate the current scroll position relative to the viewport
+    const scrollPosition = window.scrollY || window.pageYOffset;
+
+  
+    // Calculate the trigger point (e.g., when the element is 50% visible)
+    const triggerPoint = window.innerHeight / 2;
+
+    console.log(scrollPosition,triggerPoint)
+  
+    // Check if the trigger condition is met
+  });
+
   //blocker (add on by rafdy)
   // window.onload = function() {
   //   document.addEventListener("contextmenu", function(e){
